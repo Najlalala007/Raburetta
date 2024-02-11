@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css"> <!-- Connect CSS file -->
+  <title>Sepucuk Surat</title>
+  <style>
+    /* CSS for styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #3f95ce; /* Add background color */
+      background-image: linear-gradient(to bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.9)), url('bg.jpg'); /* Add gradient overlay for better readability */
+      background-size: cover;
+      background-position: center;
+      animation: fadeIn 2s ease-out; /* Add fade-in animation */
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      align-items: center;
+      justify-content: center;
+      color: #020f13; /* Change text color */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow for better contrast */
+    }
+
+    p {
+      text-align: center; /* Center align the text */
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>HAPPY 3rd ANNIVERSARRY MY BOO!!</h1>
+  <p>Sambil Puter lagunya yaa<3 <br>
+    "Halo sayanggg, Selamat Anniversarryyy!!!!! Udah 3 taun aja ya kita... Menurut kamu gimana? 3 taun bareng-baremg sama aku? capek, bosenn, atau seneng?<br>
+    Kamu capek wajar, bosen juga wajar kok, toh tiap hubungan apapun itu hal itu kan emang wajar yaaa:>. Kado-nya... aku bersyukur banget kamu suka sama apa yang aku kasih. 
+    Hubungan kita emang ga sempurna dan selamanya mulus yaa, kadang hal kecil juga kita ributin kita debatin, tapi kadang tanpa itu bakal kerasa flat terus ga sih? aku juga yakin kita bisa lewatin itu<br>
+    3 tahun, kurang lebih 1095 hari, kamu sama aku, hampir setiap malem kita sleep call... aku seneng kamu bisa handle aku<br>
+    Aku juga berterima kasih yang banyak buat hal-hal yang kamu ajarin ke aku, buat hadiah yang kamu kasih ke aku, meskipun kamu bilang itu bukan apa-apa, itu tetep berharga buat aku:> <br>
+    Masih ada banyak hal yang pengen aku lewatin bareng kamu, masih ada banyak tempat yang belum pernah kita datengin, masih banyak makanan yang belum kita cobain juga
+    aku harap kita bisa bareng-bareng terus yaa sayang...<br>
+    Aku mungkin ga bisa sepuitis kamu, aku gabisa nyusun kata-kata yang indah, tapi semoga meskipun tanpa itu, perasaan aku ini bisa sampe ke kamu,
+    mungkin kamu sekarang bertanya-tanya kenapa aku ga pake English kannn? hehe sesekali aku pengen nge-ekspresiin perasaan aku pake bahasa indonesia deh... aku yakin sih 
+    kalo aku baca surat ini lagi aku bakal ngerasa cringe sendiri aaghhh<br>
+    Hal ini agak aneh ga sih buat sampein perasaan ke orang? aku gamau terus-terusan pake hal yang biasa soalnya... sesekali yang aneh dikitt hehehe<br>
+    I put so much effort in this!!! semoga kamu sukaaa ya sayangkiuuuuu!
+    Mas... aku tau kamu ga sempurna, gitu juga sama aku sendiri, tapi aku harap kita bakal lebih bisa ngisi kekurangan kita yaaa, meskipun banyak keraguan tiap harinya, jangan terus-terusan overthinking<br>
+    Kita sama-sama jalanin yaaa, meskipun mungkin kedepannya bakalan semakin sulit, tapi karena ada kamu aku ngerasa aman, aku ngerasa bakalan baik-baik aja hhehehe<br>
+    Keberadaan kamu ngerubah banyak hal dari diri aku, dan kamu juga selalu bikin aku makin percaya diri, aku selalu ngerasa "My bf got my back" aku ga pernah sedikitpun ngerasa khawatir kalo ada kamu di sebelah aku<br>
+    Meskipun itu sulit asalkan ada kamu, bakal aku lewatinnn!!<br>
+    I feel all sort of emotion when im with you, and im glad it's happen! Happy 3rd Anniversarry! I love you to the moon and back!"<br>
+    Puter lagunya dibawah inii!
+  </p>
+  <audio id="audioPlayer" controls>
+    <source src="C:\Users\nazla\Documents\kodek\Ayg\Gyutto Piano Version.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+      
+  <script>
+    // JavaScript to fetch and display lyrics
+    const audioPlayer = document.getElementById('audioPlayer');
+
+    // Call displayLyrics function whenever the time of the audio player changes
+    audioPlayer.addEventListener('timeupdate', () => {
+      console.log('Current time:', audioPlayer.currentTime);
+      // You can perform actions based on the current time if needed
+    });
+  </script>
+</body>
+</html>
